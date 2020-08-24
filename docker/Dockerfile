@@ -22,3 +22,7 @@ RUN pip install graphviz
 
 # Japanese
 RUN apt-get install -y fonts-ipafont
+
+# clean
+RUN apt-get -y clean && \
+    rm -rf /var/lib/apt/lists/*
