@@ -2,6 +2,6 @@
 .config/**
 .ipynb_checkpoints/**
 .ipython/**
-.jupyter/**
+.jupyter/lab/workspaces/**
 .local/**
 .npm/**
