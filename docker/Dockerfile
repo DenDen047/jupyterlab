@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8.4
 
 ARG project_dir=/home/jovyan
 WORKDIR $project_dir
@@ -6,7 +6,7 @@ WORKDIR $project_dir
 FROM jjanzic/docker-python3-opencv
 
 # https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html
-FROM jupyter/scipy-notebook:latest
+FROM jupyter/datascience-notebook:python-3.8.4
 
 USER root
 
