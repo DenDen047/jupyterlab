@@ -9,4 +9,4 @@ docker run -it --rm \
     -v "$CURRENT_PATH"/notebooks:/home/jovyan \
     -v "$CURRENT_PATH"/src:/src \
     ${IMAGE_NAME} \
-    /bin/bash -c "start.sh jupyter lab --NotebookApp.token=''"
+    /bin/bash #-c "start.sh jupyter lab --NotebookApp.token=''"

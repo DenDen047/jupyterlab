@@ -2,6 +2,7 @@
 .config/**
 .ipynb_checkpoints/**
 .ipython/**
-.jupyter/lab/workspaces/**
+.jupyter/**
 .local/**
 .npm/**
+.bash_history
